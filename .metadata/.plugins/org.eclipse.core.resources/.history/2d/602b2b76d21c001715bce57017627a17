@@ -1,0 +1,64 @@
+package client;
+
+import server.CorbaTestImpl;
+
+public class Client {
+	
+	
+	 static CorbaTestImpl corbaTestImpl;  
+     
+	    static {  
+	        System.out.println("client开始连接server.......");  
+	           
+	        //初始化ip和端口号，-ORBInitialHost 127.0.0.1 -ORBInitialPort 900  
+	        String args[] = new String[4];  
+	        args[0] = "-ORBInitialHost";  
+	        //server端的IP地址，在HelloServer中定义的  
+	        args[1] = "127.0.0.1";  
+	        args[2] = "-ORBInitialPort";  
+	        //server端的端口，在HelloServer中定义的  
+	        args[3] = "900";  
+	        
+	        
+	        
+	        
+	        
+	        
+	        
+	           
+	        //创建一个ORB实例  
+	        ORB orb = ORB.init(args, null);  
+	           
+	        // 获取根名称上下文  
+	        org.omg.CORBA.Object objRef = null;  
+	        try {  
+	        objRef = orb.resolve_initial_references("NameService");  
+	        } catch (InvalidName e) {  
+	            e.printStackTrace();  
+	        }  
+	        NamingContextExt neRef = NamingContextExtHelper.narrow(objRef);  
+	           
+	        String name = "Hello";  
+	        try {  
+	              
+	            //通过ORB拿到了server实例化好的实现类  
+	            helloWorldImpl = HelloHelper.narrow(neRef.resolve_str(name));  
+	        } catch (NotFound e) {  
+	            e.printStackTrace();  
+	        } catch (CannotProceed e) {  
+	            e.printStackTrace();  
+	        } catch (org.omg.CosNaming.NamingContextPackage.InvalidName e) {  
+	            e.printStackTrace();  
+	        }  
+	           
+	        System.out.println("client connected server.......");  
+	    }  
+	       
+	    
+	    
+	    public static void main(String args[]) throws Exception {  
+	    	 float a=8;
+	    	 String str = corbaTestImpl.checkNum(a);  
+		        System.out.println(str);  
+	    }  
+}

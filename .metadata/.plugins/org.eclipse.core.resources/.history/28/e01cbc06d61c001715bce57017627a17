@@ -1,0 +1,22 @@
+package server;
+
+import CorbaTest.GoldbashPOA;
+
+public class CorbaTestImpl extends GoldbashPOA {
+
+/*	@Override
+	public String checkNum(float num) {
+		
+		//½øÐÐµÄÅÐ¶Ï
+		
+		// TODO Auto-generated method stub
+		return "23333";
+	}*/
+
+	public String checkNum(float a) {
+		// TODO Auto-generated method stub
+		return "23333";
+	
+	}
+
+}

@@ -1,0 +1,5 @@
+module Goldbash {
+	interface Goldbash{
+	     string checkNum(in int num);
+	     };
+};

@@ -1,2 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="CorbaTest.GoldbashPOA"/>
+<fullyQualifiedTypeName name="org.omg.CosNaming.NamingContextPackage.NotFound"/>
+<fullyQualifiedTypeName name="org.omg.PortableServer.POAPackage.ServantNotActive"/>
+<fullyQualifiedTypeName name="org.omg.CosNaming.NamingContextPackage.CannotProceed"/>
+<fullyQualifiedTypeName name="org.omg.PortableServer.POAPackage.WrongPolicy"/>
+<fullyQualifiedTypeName name="org.omg.CosNaming.NamingContextPackage.InvalidName"/>
+<fullyQualifiedTypeName name="org.omg.PortableServer.POAManagerPackage.AdapterInactive"/>
+<fullyQualifiedTypeName name="org.omg.PortableServer.POA"/>
+<fullyQualifiedTypeName name="org.omg.PortableServer.POAHelper"/>
+<fullyQualifiedTypeName name="org.omg.CosNaming.NameComponent"/>
+<fullyQualifiedTypeName name="org.omg.PortableServer.LifespanPolicyValue"/>
+<fullyQualifiedTypeName name="server.CorbaTestImpl"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.ORB"/>
+<fullyQualifiedTypeName name="CorbaTest.GoldbashHelper"/>
+<fullyQualifiedTypeName name="org.omg.CosNaming.NamingContextExt"/>
+<fullyQualifiedTypeName name="org.omg.CosNaming.NamingContextExtHelper"/>
+<fullyQualifiedTypeName name="CorbaTest.Goldbash"/>
+</qualifiedTypeNameHistroy>

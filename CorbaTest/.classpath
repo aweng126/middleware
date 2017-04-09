@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="D:/jacorb-3.8/lib/antlr-2.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/jacorb-3.8/lib/idl.jar"/>
+	<classpathentry kind="lib" path="D:/jacorb-3.8/lib/jacorb-3.8.jar"/>
+	<classpathentry kind="lib" path="D:/jacorb-3.8/lib/jacorb-omgapi-3.8.jar"/>
+	<classpathentry kind="lib" path="D:/jacorb-3.8/lib/jacorb-services-3.8.jar"/>
+	<classpathentry kind="lib" path="D:/jacorb-3.8/lib/picocontainer-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/jacorb-3.8/lib/slf4j-api-1.7.14.jar"/>
+	<classpathentry kind="lib" path="D:/jacorb-3.8/lib/slf4j-jdk14-1.7.14.jar"/>
+	<classpathentry kind="lib" path="D:/jacorb-3.8/lib/wrapper-3.1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

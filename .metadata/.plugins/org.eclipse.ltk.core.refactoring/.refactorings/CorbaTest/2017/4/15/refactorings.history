@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CorbaTest/src/Goldbash.idl&apos; to &apos;CorbaTest.idl&apos;" description="Rename resource &apos;Goldbash.idl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Goldbash.idl" name="CorbaTest.idl" stamp="1491705603533" updateReferences="true"/>
+</session>

@@ -1,0 +1,23 @@
+package server;
+
+import org.omg.CosNaming.NamingContextPackage.CannotProceed;
+import org.omg.CosNaming.NamingContextPackage.InvalidName;
+import org.omg.CosNaming.NamingContextPackage.NotFound;
+import org.omg.PortableServer.POAManagerPackage.AdapterInactive;
+import org.omg.PortableServer.POAPackage.ServantNotActive;
+import org.omg.PortableServer.POAPackage.WrongPolicy;
+
+public class Server {
+
+	public static void main(String[] args)throws ServantNotActive, WrongPolicy, InvalidName, AdapterInactive, org.omg.CosNaming.NamingContextPackage.InvalidName, NotFound, CannotProceed {
+		
+		//指定ORB的端口号 -ORBInitialPort 900 
+		args=new String[2];
+		args[0]="-ORBInitialPort";
+		args[1]="900";
+		
+		
+		
+	}
+
+}

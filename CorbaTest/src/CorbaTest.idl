@@ -1,0 +1,5 @@
+module CorbaTest {
+	interface Goldbash{
+	     string checkNum(in float num);
+	    };
+};
