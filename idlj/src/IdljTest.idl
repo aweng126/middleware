@@ -1,0 +1,5 @@
+module IdljTest {
+		interface Goldbash{
+	     string checkNum(in float num);
+	    };
+};

@@ -54,7 +54,7 @@ public class Client {
 	        } catch (org.omg.CosNaming.NamingContextPackage.InvalidName e) {  
 	            e.printStackTrace();  
 	        } 
-	   }
+	    }
 	        
 	         
 	    public static void main(String args[]) throws Exception {  
