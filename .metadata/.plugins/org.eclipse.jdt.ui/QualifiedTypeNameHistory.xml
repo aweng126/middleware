@@ -17,4 +17,7 @@
 <fullyQualifiedTypeName name="org.omg.CosNaming.NamingContextExt"/>
 <fullyQualifiedTypeName name="org.omg.CosNaming.NamingContextExtHelper"/>
 <fullyQualifiedTypeName name="CorbaTest.Goldbash"/>
+<fullyQualifiedTypeName name="IdljTest.Goldbash"/>
+<fullyQualifiedTypeName name="IdljTest.GoldbashHelper"/>
+<fullyQualifiedTypeName name="IdljTest.GoldbashPOA"/>
 </qualifiedTypeNameHistroy>
