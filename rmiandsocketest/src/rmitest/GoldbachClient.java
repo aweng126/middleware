@@ -8,9 +8,9 @@ import java.rmi.RemoteException;
 public class GoldbachClient {
 
 	public static void main(String args[])throws MalformedURLException,RemoteException,NotBoundException{	
-		//在RMI注册表中查找指定对象
+		//find  register object
 		GoldbachDefine goldbach =  (GoldbachDefine) Naming.lookup("rmi://localhost:8888/Goldbach");
-        //调用远程对象方法
+        //output the client result
         System.out.println("client:");
         System.out.println(goldbach.checkNum(8));
 		

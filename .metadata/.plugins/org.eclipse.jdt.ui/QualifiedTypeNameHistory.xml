@@ -20,4 +20,6 @@
 <fullyQualifiedTypeName name="IdljTest.Goldbash"/>
 <fullyQualifiedTypeName name="IdljTest.GoldbashHelper"/>
 <fullyQualifiedTypeName name="IdljTest.GoldbashPOA"/>
+<fullyQualifiedTypeName name="org.apache.struts2.dispatcher.mapper.ActionMapping"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

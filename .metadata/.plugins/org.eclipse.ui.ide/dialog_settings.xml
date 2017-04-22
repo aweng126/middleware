@@ -12,6 +12,7 @@
 		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\kingwen\Desktop\Socket_Goldbach"/>
 			<item value="C:\Users\kingwen\Desktop\rmiandsocket"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">

@@ -13,11 +13,11 @@ public class GoldbachServer {
 		GoldbachDefine goldbach;
 		goldbach=new GoldbachDefineImp();
 		
-		//远程对象注册表实例
+		//register object 
         LocateRegistry.createRegistry(8888);
-        //把远程对象注册到RMI注册服务器上
+        //bing the object to server  
         Naming.bind("rmi://localhost:8888/Goldbach", goldbach);
-        System.out.println("server:对象绑定成功！");
+        System.out.println("server:begin to listen");
 		
 	}
 	

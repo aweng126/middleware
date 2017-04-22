@@ -52,7 +52,7 @@ public class Client {
 	        
 	         
 	    public static void main(String args[]) throws Exception {  
-	    	 float a=12;
+	    	 float a=8;
 	    	 String str = corbaTestImpl.checkNum(a);  
 		        System.out.println(str);  
 	    }  

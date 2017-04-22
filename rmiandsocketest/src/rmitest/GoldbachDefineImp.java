@@ -15,12 +15,10 @@ public class GoldbachDefineImp extends UnicastRemoteObject implements GoldbachDe
 	@Override
 	public String checkNum(int num) throws RemoteException {
 		// TODO Auto-generated method stub
-		
-//		具体的实现逻辑代码
-		
+			 	
 		for(int i=2;i<(num/2+1);i++){
 			if(isPrimeNum(i)&&isPrimeNum(num-i)){
-				return "这两个数字为"+i+"和"+(num-i);
+				return "the two number is "+i+"and "+(num-i);
 			}
 		}
 		return 2333333+"";
